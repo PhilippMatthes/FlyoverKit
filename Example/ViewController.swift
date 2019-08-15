@@ -14,6 +14,7 @@ import UIKit
 // MARK: - ViewController
 
 /// The Example View Controller
+@available(iOS 10.0, *)
 class ViewController: SplitScreenViewController {
     
     // MARK: Propertirs
@@ -120,6 +121,7 @@ class ViewController: SplitScreenViewController {
 
 // MARK: - ConfigurationTableViewDelegate
 
+@available(iOS 10.0, *)
 extension ViewController: FlyoverConfigurationTableViewDelegate {
     
     /// On Configuration Change

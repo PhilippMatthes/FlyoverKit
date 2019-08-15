@@ -8,6 +8,7 @@
 
 import Foundation
 
+@available(iOS 10.0, *)
 public extension FlyoverCamera {
     
     /// The FlyoverCamera State

@@ -11,6 +11,7 @@ import UIKit
 // MARK: - FlyoverMapViewController
 
 /// The FlyoverMapViewController
+@available(iOS 10.0, *)
 open class FlyoverMapViewController: UIViewController {
     
     // MARK: Properties

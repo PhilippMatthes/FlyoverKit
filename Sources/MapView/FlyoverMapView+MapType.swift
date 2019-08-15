@@ -10,6 +10,7 @@ import MapKit
 
 // MARK: - MapType
 
+@available(iOS 10.0, *)
 public extension FlyoverMapView {
     
     /// The FlyoverMapView supported MapType
@@ -26,6 +27,7 @@ public extension FlyoverMapView {
 
 // MARK: - MapType RawRepresentable
 
+@available(iOS 10.0, *)
 extension FlyoverMapView.MapType: RawRepresentable {
     
     /// Associated type RawValue as MKMapType

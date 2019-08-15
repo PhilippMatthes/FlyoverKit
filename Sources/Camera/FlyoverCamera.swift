@@ -11,6 +11,7 @@ import MapKit
 // MARK: - FlyoverCamera
 
 /// The FlyoverCamera
+@available(iOS 10.0, *)
 open class FlyoverCamera {
     
     // MARK: Public properties
@@ -252,6 +253,7 @@ open class FlyoverCamera {
 
 // MARK: - UIViewPropertyAnimator Extension
 
+@available(iOS 10.0, *)
 fileprivate extension UIViewPropertyAnimator {
     
     /// Force Stop Animation

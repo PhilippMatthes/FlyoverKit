@@ -10,6 +10,7 @@ import CoreLocation
 
 // MARK: - Configuration
 
+@available(iOS 10.0, *)
 public extension FlyoverCamera {
     
     /// The FlyoverCamera Configuration
@@ -55,6 +56,7 @@ public extension FlyoverCamera {
 
 // MARK: - Configuration Theme
 
+@available(iOS 10.0, *)
 public extension FlyoverCamera.Configuration {
     
     /// Default configuration

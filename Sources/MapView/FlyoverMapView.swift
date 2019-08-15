@@ -11,6 +11,7 @@ import MapKit
 // MARK: - FlyoverMapView
 
 /// The FlyoverMapView
+@available(iOS 10.0, *)
 open class FlyoverMapView: MKMapView {
     
     // MARK: Properties
